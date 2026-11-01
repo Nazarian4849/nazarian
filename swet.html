@@ -1,0 +1,491 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="شیرینی‌سرای قصر کیک؛ انواع کیک، کلوچه و شیرینی تازه با امکان ثبت سفارش."
+    />
+    <title>شیرینی‌سرای قصر کیک | طعم شیرینی، شادی زندگی</title>
+    <link rel="stylesheet" href="./sweet.css" />
+  </head>
+  <body>
+    <!-- سربرگ و منوی اصلی -->
+    <header class="site-header">
+      <a class="logo" href="#home">🧁 شیرینی‌سرای قصر کیک</a>
+
+      <button
+        class="menu-toggle"
+        id="menuToggle"
+        aria-label="باز کردن منو"
+        aria-expanded="false"
+      >
+        ☰
+      </button>
+
+      <nav class="navigation" id="navigation">
+        <a href="#home">صفحه اصلی</a>
+        <a href="#products">محصولات</a>
+        <a href="#orders">سفارشات</a>
+        <a href="#about">درباره ما</a>
+        <a href="#contact">تماس با ما</a>
+      </nav>
+
+      <a class="header-order" href="#orders">ثبت سفارش ↙</a>
+    </header>
+
+    <main>
+      <!-- بخش اول: معرفی فروشگاه -->
+      <section class="hero" id="home">
+        <div class="hero-overlay"></div>
+
+        <div class="hero-content">
+          <p class="eyebrow">به شیرینی‌سرای ناز خوش آمدید</p>
+
+          <h1>
+            طعم شیرینی،
+            <br />
+            <span>شادی زندگی</span>
+          </h1>
+
+          <p class="hero-description">
+            با استفاده از مواد اولیه تازه و باکیفیت، انواع کیک، کلوچه و شیرینی
+            را با عشق برای لحظه‌های شیرین شما آماده می‌کنیم.
+          </p>
+
+          <div class="hero-actions">
+            <a class="button button-primary" href="#products">
+              مشاهده محصولات ←
+            </a>
+
+            <a class="button button-outline" href="#orders"> ثبت سفارش </a>
+          </div>
+
+          <div class="hero-note">✦ تازگی، کیفیت و طعمی به‌یادماندنی</div>
+        </div>
+      </section>
+
+      <!-- بخش دوم: محصولات -->
+      <section class="section products-section" id="products">
+        <div class="section-heading">
+          <p class="eyebrow">انتخابی شیرین برای شما</p>
+          <h2>محصولات ما</h2>
+          <p>
+            با بهترین کیفیت و مواد اولیه تازه، هر روز برای شما آماده می‌شوند.
+          </p>
+        </div>
+
+        <div class="product-grid">
+          <!-- محصول اول: کیک -->
+          <article class="product-card">
+            <div class="product-image-wrap">
+              <img
+                src="IMG_۲۰۲۶۱۰۲۸_۱۶۵۴۴۰.jpg"
+                alt="کیک شکلاتی با میوه تازه"
+                loading="lazy"
+              />
+
+              <span class="product-tag">پیشنهاد ویژه</span>
+            </div>
+
+            <div class="product-info">
+              <h3>کیک</h3>
+
+              <p>
+                انواع کیک تولد، شکلاتی، خامه‌ای و کیک‌های سفارشی با طعم‌های
+                متنوع.
+              </p>
+
+              <button
+                class="button product-button"
+                type="button"
+                data-product="کیک"
+              >
+                <a href="./image.html" style="text-decoration: none">
+                  سفارش کیک ←</a
+                >
+              </button>
+            </div>
+          </article>
+
+          <!-- محصول دوم: کلوچه -->
+          <article class="product-card">
+            <div class="product-image-wrap">
+              <img src="../87e82e51c9f324998cc92905e78f6a1d (1).jpg" alt="کلوچه‌های تازه و شکلاتی" loading="lazy" />
+
+              <span class="product-tag tag-gold"> تازه و خوشمزه </span>
+            </div>
+
+            <div class="product-info">
+              <h3>کلوچه</h3>
+
+              <p>
+                کلوچه‌های خوشمزه و تازه، مناسب برای صبحانه، چای و دورهمی‌های
+                شما.
+              </p>
+
+              <button
+                class="button product-button"
+                type="button"
+                data-product="کلوچه"
+              >
+                سفارش کلوچه ←
+              </button>
+            </div>
+          </article>
+
+          <!-- محصول سوم: شیرینی و گل نمک -->
+          <article class="product-card">
+            <div class="product-image-wrap">
+              <img
+                src="b852650033689ca9876ea6fe8442e579.jpg"
+                alt="شیرینی و باقلوای تازه"
+                loading="lazy"
+              />
+
+              <span class="product-tag tag-green"> مناسب پذیرایی </span>
+            </div>
+
+            <div class="product-info">
+              <h3>شیرینی و گل نمک</h3>
+
+              <p>
+                انواع شیرینی‌های سنتی و مدرن، تازه و آماده برای پذیرایی از
+                مهمانان شما.
+              </p>
+
+              <button
+                class="button product-button"
+                type="button"
+                data-product="شیرینی و گل نمک"
+              >
+                سفارش گل←
+              </button>
+            </div>
+          </article>
+          <!-- مخصول جهارم  -->
+          <article class="product-card">
+            <div class="product-image-wrap">
+              <img
+                src="../ff629b664a4e705fb2fc5d0a86e17115.jpg"
+                alt="میوه و خشک بار "
+                loading="lazy"
+              />
+
+              <span class="product-tag tag-green"> کیفیت عالی </span>
+            </div>
+
+            <div class="product-info">
+              <h3>میوه خشک بار</h3>
+
+              <p>
+                انواع میوه های خشک شده رو با قیمت مناسب و با کیفیت عالی از ما
+                خریداریکنید
+              </p>
+
+              <button
+                class="button product-button"
+                type="button"
+                data-product="شیرینی و گل نمک"
+              >
+                سفارش میوه خشک ←
+              </button>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- بخش سوم: سفارشات -->
+      <div
+        style="
+          background-image: url(./image/1878b6e236cd2e4744ce6d1316ccbee5.jpg);
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center;
+        "
+      >
+        <section class="orders-section" id="orders">
+          <div
+            class="order-art"
+            role="img"
+            aria-label="تصویر کیک شیرینی‌فروشی"
+          ></div>
+
+          <div class="order-intro">
+            <p class="eyebrow">سفارش آسان و سریع</p>
+            <h2 style="color: #ffd18e">سفارشات</h2>
+
+            <p>
+              محصول دلخواه خود را انتخاب کنید و مشخصات سفارش را وارد نمایید.
+              برای هماهنگی، با شما تماس خواهیم گرفت.
+            </p>
+
+            <div class="order-steps">
+              <div class="step">
+                <span>۱</span>
+                <p>انتخاب محصول</p>
+              </div>
+
+              <div class="step">
+                <span>۲</span>
+                <p>ثبت اطلاعات</p>
+              </div>
+
+              <div class="step">
+                <span>۳</span>
+                <p>تأیید سفارش</p>
+              </div>
+            </div>
+
+            <div class="small-note">
+              پس از ثبت فرم، خلاصه سفارش روی همین صفحه نمایش داده می‌شود.
+            </div>
+          </div>
+
+          <!-- فرم سفارش -->
+          <div class="order-form-card">
+            <h3>فرم ثبت سفارش</h3>
+
+            <form id="orderForm" onsubmit="sendToWhatsApp(event)">
+              <label for="customerName">
+                نام و نام خانوادگی <span>*</span>
+              </label>
+
+              <input
+                id="customerName"
+                name="customerName"
+                type="text"
+                placeholder="نام شما"
+                autocomplete="name"
+                required
+              />
+
+              <label for="customerPhone"> شماره تماس <span>*</span> </label>
+
+              <input
+                id="customerPhone"
+                name="customerPhone"
+                type="tel"
+                placeholder="مثلاً 07XXXXXXXX"
+                autocomplete="tel"
+                required
+              />
+
+              <label for="productType"> نوع محصول <span>*</span> </label>
+
+              <select id="productType" name="productType" required>
+                <option value="">یک محصول انتخاب کنید</option>
+                <option value="کیک">کیک</option>
+                <option value="کلوچه">کلوچه</option>
+                <option value="شیرینی و گل نمک">شیرینی و گل نمک</option>
+              </select>
+
+              <div class="form-row">
+                <div>
+                  <label for="quantity">تعداد / مقدار</label>
+                  <input
+                    id="quantity"
+                    name="quantity"
+                    type="number"
+                    min="1"
+                    value="1"
+                    required
+                  />
+                </div>
+
+                <div>
+                  <label for="deliveryDate">تاریخ موردنظر</label>
+                  <input id="deliveryDate" name="deliveryDate" type="date" />
+                </div>
+              </div>
+
+              <label for="orderAddress">آدرس تحویل</label>
+
+              <input
+                id="orderAddress"
+                name="orderAddress"
+                type="text"
+                placeholder="محله، خیابان و نشانی"
+              />
+
+              <label for="orderDetails">توضیحات سفارش</label>
+
+              <textarea
+                id="orderDetails"
+                name="orderDetails"
+                rows="3"
+                placeholder="مثلاً طعم کیک، نوشته روی کیک یا توضیحات دیگر"
+              >
+              </textarea>
+
+              <button
+                class="button submit-button"
+                type="submit"
+                onsubmit="sendToWhatsApp(event)"
+              >
+                ثبت سفارش ➤
+              </button>
+
+              <p class="form-disclaimer">
+                برای دریافت واقعی سفارش‌ها، فرم باید به واتساپ یا یک سرور متصل
+                شود.
+              </p>
+            </form>
+
+            <div
+              class="order-result"
+              id="orderResult"
+              role="status"
+              aria-live="polite"
+              hidden
+            ></div>
+          </div>
+        </section>
+      </div>
+
+      <!-- بخش چهارم: درباره ما -->
+      <section class="about-section section" id="about">
+        <div class="about-mark">✿</div>
+
+        <div>
+          <p class="eyebrow">داستان ما</p>
+          <h2>درباره شیرینی‌سرای قصر کیک</h2>
+
+          <p>
+            در شیرینی‌سرای قصر کیک باور داریم که یک شیرینی خوشمزه می‌تواند
+            لحظه‌های ساده را به خاطره‌ای شیرین تبدیل کند. به همین دلیل، به تازگی
+            مواد اولیه، کیفیت و رضایت مشتریان اهمیت می‌دهیم.
+          </p>
+        </div>
+      </section>
+
+      <!-- بخش پنجم: تماس با ما -->
+      <section class="section contact-section" id="contact">
+        <div class="section-heading">
+          <p class="eyebrow">همیشه در کنار شما</p>
+          <h2>تماس با ما</h2>
+          <p>برای سفارش، پرسش یا هماهنگی با ما در تماس باشید.</p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- شماره تماس -->
+          <article class="contact-card">
+            <div class="contact-icon">☎</div>
+            <h3>شماره تماس</h3>
+
+            <p>شماره اول: 0783858361</p>
+            <p>شماره دوم: 0799355051</p>
+
+            <a class="text-link" href="tel:+93700000000"> تماس بگیرید ← </a>
+          </article>
+
+          <!-- آدرس -->
+          <article class="contact-card">
+            <div class="contact-icon">⌖</div>
+            <h3>آدرس فروشگاه</h3>
+
+            <p>افغانستان، هرات، جبرییل ، نرسیده به کلنیک دولتی .</p>
+
+            <a
+              class="text-link"
+              href="https://www.google.com/maps"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              مشاهده نقشه ←
+            </a>
+          </article>
+
+          <!-- شبکه‌های اجتماعی -->
+          <article class="contact-card">
+            <div class="contact-icon">♡</div>
+            <h3>فضای مجازی</h3>
+
+            <p>برای دیدن محصولات تازه، ما را دنبال کنید.</p>
+
+            <div class="social-links">
+              <a
+                href="https://www.instagram.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                اینستاگرام
+              </a>
+
+              <a
+                href="https://www.facebook.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                فیسبوک
+              </a>
+
+              <a href="https://t.me/" target="_blank" rel="noopener noreferrer">
+                تلگرام
+              </a>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <!-- پاورقی -->
+    <footer class="site-footer">
+      <div class="footer-main">
+        <div>
+          <a class="footer-logo" href="#home"> 🧁 شیرینی‌سرای قصر کیک </a>
+
+          <p>طعم واقعی شیرینی؛ در هر لحظه از زندگی.</p>
+        </div>
+
+        <div class="footer-links">
+          <a href="#home">صفحه اصلی</a>
+          <a href="#products">محصولات</a>
+          <a href="#orders">سفارشات</a>
+          <a href="#contact">تماس با ما</a>
+        </div>
+
+        <a class="back-top" href="#home"> بازگشت به بالا ↑ </a>
+      </div>
+
+      <div class="copyright">
+        © ۲۰۲۶ شیرینی‌سرای قصر کیک. تمامی حقوق محفوظ است.
+      </div>
+    </footer>
+
+    <script src="./swet.js"></script>
+  </body>
+  <script>
+    function sendToWhatsApp(event) {
+      // جلوگیری از رفرش شدن صفحه
+      event.preventDefault();
+
+      // شماره واتساپ شما (با کد کشور)
+      let myNumber = "0093774045457"; // <-- شماره خودت را اینجا بنویس
+
+      // دریافت مقادیر فرم
+      let name = document.getElementById("customerName").value;
+      let phone = document.getElementById("customerPhone").value;
+      let product = document.getElementById("productType").value;
+      let quantity = document.getElementById("quantity").value;
+      let deliveryDate = document.getElementById("deliveryDate").value;
+      let address = document.getElementById("orderAddress").value;
+      let details = document.getElementById("orderDetails").value;
+
+      // ساختن متن پیام
+      let message =
+        " سلام، یک سفارش جدید در قصر کیک ثبت شد:%0A%0A" +
+        "👤 *نام مشتری:* ${name}%0A " +
+        " 📞 *شماره تماس:* ${phone}\%0A + 🎂 *نوع محصول:* ${product}%0A" +
+        "📦 *تعداد/مقدار:* ${quantity}\%0A + 📅 *تاریخ تحویل:* ${deliveryDate}%0A" +
+        "  *آدرس تحویل:* ${address}\%0A + 💬 *توضیحات:* ${details || ندارد}";
+
+      // باز کردن واتساپ و ارسال پیام
+      let whatsappURL = "https://wa.me/${myNumber}?text=${message}";
+      window.open(whatsappURL, "_blank");
+    }
+  </script>
+
+  <div class="alireza"></div>
+</html>
